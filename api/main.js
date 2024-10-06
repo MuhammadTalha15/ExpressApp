@@ -7,6 +7,10 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.sendFile('index');
-})
+});
+
+app.get('/about', (req, res) => {
+    res.send('This is ABout testing Route');
+});
 
 app.listen(port, () => console.log(`App listening on Port ${port}`))
