@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/about",
-            "destination": "/about"
+            "destination": "/api"
         },
         {
             "source": "/(.*)",
